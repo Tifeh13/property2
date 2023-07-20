@@ -1,0 +1,867 @@
+section{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #252525;
+}
+.section-1{
+  width: 100%;
+  height: 90.3vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background: linear-gradient(rgba(7, 7, 7, 0.93),rgba(7, 7, 7, 0.93)), url(./assets/House.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section-1-1{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background: #070707;
+}
+.section-2 {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.section-3 {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+#whiat{
+  color: #fff;
+}
+#whiat:hover{
+  color: rgba(222, 187, 72, 0.70);
+}
+.change{
+  background-color: #252525;
+}
+.buy{
+  width: 400.669px;
+  padding-top: 5rem;
+}
+.buy h1{
+  color: white;
+  font-size: 33px;
+  font-weight: 500;
+  line-height: 50.681px;
+  letter-spacing: 1.345px;
+}
+.buy h1 span{
+  color: rgba(222, 187, 72, 0.70) !important;
+}
+.have p span{
+  color: rgba(222, 187, 72, 0.70) !important;
+}
+
+.have{
+  padding-top: 2rem;
+  width: 480.669px;
+}
+.have p{
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 16.804px;
+  font-weight: 400;
+  line-height: 38.675px;
+  letter-spacing: 0.686px;
+}
+.get{
+  color: #1C1D1E;
+  font-size: 15.205px;
+  font-weight: 500;
+  line-height: 32.681px;
+  letter-spacing: 0.448px;
+  padding: 8px 25px;
+  background: rgba(222, 187, 72, 0.70);
+  border-radius: 5px;
+}
+.start{
+  padding-top: 2rem;
+}
+.last-1{
+  margin-top: 9rem;
+  background: rgba(222, 187, 72, 0.70);
+  width: 100%;
+  height: 13%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.grid-1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  width: 90%;
+}
+.one{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.one-1{
+  padding-bottom: 15px;
+}
+.one p{
+  color: #252525;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 21.009px;
+  letter-spacing: 0.817px;
+}
+.dream{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  width: 100%;
+  /* padding-top: 2rem; */
+}
+.dream-1 h1{
+  color: rgba(222, 187, 72, 0.70);
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 70px;
+  letter-spacing: 1.6px;
+}
+.dream-1 p{
+  width: 607px;
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 45px;
+  letter-spacing: 1.47px;
+}
+.sell-1{
+  border-radius: 10px;
+  background: rgba(222, 187, 72, 0.70);
+  width: 265px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  color: #1C1D1E;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 70px;
+  letter-spacing: 0.96px;
+  margin-top: 2rem;
+}
+
+.houses{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  padding-top: 4rem;
+}
+.houses img{
+  width: 294.064px;
+  height: 271px;
+}
+.user{
+  color: white;
+  padding-left: 15px;
+  padding-top: 5px;
+}
+
+.contant-1{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #000;
+  height: 100vh;
+}
+
+.contant-2{
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.contant-3{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 3rem;
+}
+.come{
+  display: inline;
+  width: 100%;
+ 
+}
+.carousel-1{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #070707;
+  height: auto;
+}
+
+.carousel-2{
+  width: 60%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.carousel-3{
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 3rem;
+  gap: 30px;
+}
+.contant{
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 100px;
+}
+.feedback h1{
+  color: rgba(222, 187, 72, 0.70);
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 70px;
+  letter-spacing: 1.6px;
+}
+.feedback textarea{
+  outline: none;
+  height: 458px;
+  width: 100%;
+  padding: 1rem;
+  border-radius: 20px;
+  background: rgba(206, 212, 233, 0.10);
+  color: #fff;
+  border: 1px solid  rgba(206, 212, 233, 0.10);
+  font-size: 20px;
+  resize: none;
+}
+.feedback textarea:hover{
+  cursor: pointer;
+}
+.feedback ::placeholder{
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.60);
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.88px;
+}
+.sendme{
+  justify-content: flex-end;
+  display: flex;
+  padding-top: 1rem;
+}
+.sendme button{
+  border-radius: 10px;
+  background: rgba(222, 187, 72, 0.70);
+  padding: 10px 30px;
+  color: #1C1D1E;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  letter-spacing: 0.96px;
+  outline: none;
+}
+.sendme button:hover{
+  cursor: pointer;
+}
+.us{
+  display: flex;
+  /* justify-content: center; */
+  padding-left: 4rem;
+}
+.more h1{
+  color: rgba(222, 187, 72, 0.70);
+  font-size: 40px;
+  font-style: normal;
+  line-height: 62.982px;
+  letter-spacing: 1.6px;
+}
+.phone{
+  display: flex;
+  gap: 20px;
+  cursor: pointer;
+}
+.icons{
+  color: rgba(255, 255, 255, 0.70);
+  font-size: 21px;
+}
+.phone p{
+  color: rgba(255, 255, 255, 0.70);
+  font-size: 20.694px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 1.242px;
+}
+.link{
+  text-decoration: none;
+}
+.custom-carousel{
+  display: inline;
+  gap: 40px;
+}
+
+.carousel-item {
+  margin-right: 20px; /* Add the desired margin */
+}
+
+.up{
+  padding-top: 3rem;
+}
+
+.up h1{
+  color: rgba(222, 187, 72, 0.70);
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 1.6px;
+  padding-bottom: 1rem;
+}
+
+.up{
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 32px;
+  font-style: normal;
+  line-height: 70px;
+  letter-spacing: 1.28px;
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+}
+.up-2{
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 32px;
+  font-style: normal;
+  line-height: 70px;
+  letter-spacing: 1.28px;
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+}
+.menu-icon span {
+  background-color: white;
+  border: none;
+  outline: none !important; /* Add !important to override default styles */
+}
+
+.menu-icon .navbar-toggler-icon {
+  background-color: transparent;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  border: none;
+  outline: none !important; /* Add !important to override default styles */
+}
+
+.menu-icon button.navbar-toggler:focus,
+.menu-icon button.navbar-toggler:not(:disabled):hover {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.navbar-toggler{
+  border: none;
+  outline: none;
+}
+
+.phone-dream{
+  display: none;
+}
+
+@media(max-width:1386px){
+  .houses img {
+    width: 212.064px;
+    height: 200px;
+}
+.dream {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 19px;
+  width: 100%;
+  /* padding-top: 2rem; */
+}
+.up h1 {
+  color: rgba(222, 187, 72, 0.70);
+  font-size: 29px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 1.6px;
+  padding-bottom: 1rem;
+}
+}
+
+@media(max-width:1186px){
+  .houses img {
+    width: 162.064px;
+    height: 167px;
+}
+}
+@media(max-width:1068px){
+  .dream-1 p {
+    width: 468px;
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 1.47px;
+}
+}
+
+@media(max-width:1000px){
+  .contant {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 100px;
+}
+.contant-1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #000;
+  height: auto;
+}
+.us {
+  display: flex;
+  justify-content: flex-end;
+  padding-left: 4rem;
+}
+}
+@media(max-width:931px){
+  .dream {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 19px;
+    width: 100%;
+    flex-direction: column;
+    /* padding-top: 2rem; */
+}
+.dream-1{
+  width: 100%;
+}
+.dream-1 h1 {
+  color: rgba(222, 187, 72, 0.70);
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 70px;
+  letter-spacing: 1.6px;
+  text-align: center;
+}
+.dream-1 p {
+  width: 100%;
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 45px;
+  letter-spacing: 1.47px;
+  text-align: center;
+}
+.sell{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.houses img {
+  width: 325.064px;
+  height: 218px;
+}
+.up h1 {
+  color: rgba(222, 187, 72, 0.70);
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 1.6px;
+  padding-bottom: 1rem;
+}
+}
+@media (max-width:739px){
+  .houses img {
+    width: 265.064px;
+    height: 218px;
+}
+}
+@media (max-width:609px){
+  .houses img {
+    width: 227.064px;
+    height: 218px;
+}
+.sell-1 {
+  border-radius: 10px;
+  background: rgba(222, 187, 72, 0.70);
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  color: #1C1D1E;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 70px;
+  letter-spacing: 0.96px;
+  margin-top: 2rem;
+}
+.up h1 {
+  color: rgba(222, 187, 72, 0.70);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 1.6px;
+  padding-bottom: 1rem;
+}
+}
+
+@media (max-width:533px){
+  .have p {
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 11.804px;
+    font-weight: 400;
+    line-height: 25.675px;
+    letter-spacing: 0.686px;
+    width: 80%;
+}
+.have {
+  padding-top: 10px;
+  width: 400.669px;
+}
+.one p {
+  color: #252525;
+  font-size: 9px;
+  font-weight: 500;
+  line-height: 21.009px;
+  letter-spacing: 0.817px;
+}
+.last-1 {
+  margin-top: 16rem;
+  background: rgba(222, 187, 72, 0.70);
+  width: 100%;
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1rem;
+}
+.buy h1 {
+  color: white;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 50.681px;
+  letter-spacing: 1.345px;
+}
+.grid-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  width: 90%;
+}
+}
+@media (max-width:523px){
+  .houses {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    padding-top: 4rem;
+}
+.houses img {
+  width: 198.064px;
+  height: 189px;
+}
+}
+@media(max-width:501px){
+  .dream{
+    display: none;
+  }
+  .phone-dream{
+    display: block;
+  }
+  .carousel-2 {
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.phone-dream-1 h1{
+  color: rgba(222, 187, 72, 0.70);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 70px; /* 218.75% */
+  letter-spacing: 1.28px;
+}
+.phone-dream-1 p{
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 150% */
+  letter-spacing: 1.2px;
+  text-align: center;
+}
+.sell-2 {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  flex-direction: column;
+}
+.up h1 {
+  color: rgba(222, 187, 72, 0.70);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 1.6px;
+  padding-bottom: 1rem;
+}
+}
+@media(max-width:461px){
+  .houses img {
+    width: 160.216px;
+    height: 158.983px;
+}
+.up h1 {
+  color: rgba(222, 187, 72, 0.70);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 1.6px;
+  padding-bottom: 0rem;
+}
+.houses {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+  padding-top: 2rem;
+  width: 100%;
+}
+.phone-dream-1 h1{
+  color: rgba(222, 187, 72, 0.70);
+  font-size: 24px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 70px; /* 218.75% */
+  letter-spacing: 1.28px;
+}
+}
+
+@media (max-width:438px){
+  .contant-3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 1rem;
+}
+  .buy {
+    width: 307.669px;
+    padding-top: 5rem;
+}
+.buy h1 {
+  color: white;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 38.681px;
+  letter-spacing: 1.345px;
+}
+.have {
+  padding-top: 10px;
+  width: 300.669px;
+}
+.have p {
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 11.804px;
+  font-weight: 400;
+  line-height: 20.675px;
+  letter-spacing: 0.686px;
+  width: 100%;
+}
+.contant {
+  display: block;
+  width: 100%;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 80px;
+}
+.one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 17px;
+}
+.more h1 {
+  color: rgba(222, 187, 72, 0.70);
+  font-size: 32px;
+  font-style: normal;
+  line-height: 52.982px;
+  letter-spacing: 1.6px;
+}
+.phone p {
+  color: rgba(255, 255, 255, 0.70);
+  font-size: 15.694px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 1.242px;
+}
+.us {
+  display: flex;
+  justify-content: start;
+  padding-left: 1rem;
+  padding-top: 2rem;
+}
+.feedback h1 {
+  color: rgba(222, 187, 72, 0.70);
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 70px;
+  letter-spacing: 1.6px;
+}
+}
+@media(max-width:380px){
+  .houses {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    padding-top: 2rem;
+    width: 100%;
+}
+.houses img {
+  width: 143.216px;
+  height: 128.983px;
+}
+}
+@media (max-width:365px){
+  .one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+}
+.have {
+  padding-top: 10px;
+  width: 270.669px;
+}
+.buy h1 {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 38.681px;
+  letter-spacing: 1.345px;
+}
+.buy {
+  width: 270.669px;
+  padding-top: 5rem;
+}
+.have p {
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 9.804px;
+  font-weight: 400;
+  line-height: 20.675px;
+  letter-spacing: 0.686px;
+  width: 100%;
+}
+.section-1 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background: linear-gradient(rgba(7, 7, 7, 0.93),rgba(7, 7, 7, 0.93)), url(/src/assets/House.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.one p {
+  color: #252525;
+  font-size: 8px;
+  font-weight: 500;
+  line-height: 12.009px;
+  letter-spacing: 0.817px;
+}
+.feedback textarea {
+  outline: none;
+  height: 364px;
+  width: 100%;
+  padding: 1rem;
+  border-radius: 20px;
+  background: rgba(206, 212, 233, 0.10);
+  color: #fff;
+  border: 1px solid rgba(206, 212, 233, 0.10);
+  font-size: 16px;
+  resize: none;
+}
+.feedback ::placeholder{
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.60);
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.88px;
+}
+.sendme {
+    justify-content: end;
+    display: flex;
+    padding-top: 1rem;
+    /* width: 138%; */
+}
+.contant {
+  display: block;
+  width: 100%;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 80px;
+}
+.us {
+  display: flex;
+  justify-content: start;
+  padding-left: 1rem;
+  padding-top: 2rem;
+}
+.more h1 {
+  color: rgba(222, 187, 72, 0.70);
+  font-size: 26px;
+  font-style: normal;
+  line-height: 52.982px;
+  letter-spacing: 1.6px;
+}
+}
+@media(max-width:350px){
+  .houses img {
+    width: 110.216px;
+    height: 90.983px;
+}
+.carousel-2 {
+  width: 101%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+}
