@@ -87,9 +87,14 @@ section{
   padding: 8px 25px;
   background: rgba(222, 187, 72, 0.70);
   border-radius: 5px;
+  outline: none;
+  border: 1px solid rgba(222, 187, 72, 0.70);
 }
 .start{
   padding-top: 2rem;
+}
+.start button {
+  outline: none;
 }
 .last-1{
   margin-top: 9rem;
@@ -516,16 +521,16 @@ section{
 .sell-1 {
   border-radius: 10px;
   background: rgba(222, 187, 72, 0.70);
-  width: 200px;
+  width: 135px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   gap: 20px;
   color: #1C1D1E;
-  font-size: 24px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 500;
-  line-height: 70px;
+  line-height: 40px;
   letter-spacing: 0.96px;
   margin-top: 2rem;
 }
@@ -600,6 +605,15 @@ section{
   .dream{
     display: none;
   }
+  .up-2 {
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 32px;
+    font-style: normal;
+    line-height: 39px;
+    letter-spacing: 1.28px;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
   .phone-dream{
     display: block;
   }
