@@ -88,7 +88,7 @@ section{
   background: rgba(222, 187, 72, 0.70);
   border-radius: 5px;
   outline: none;
-  border: 1px solid rgba(222, 187, 72, 0.70);
+  border: 0px solid rgba(222, 187, 72, 0.70);
 }
 .start{
   padding-top: 2rem;
@@ -281,7 +281,7 @@ section{
   display: flex;
   padding-top: 1rem;
 }
-.sendme button{
+.sendme button {
   border-radius: 10px;
   background: rgba(222, 187, 72, 0.70);
   padding: 10px 30px;
@@ -291,6 +291,7 @@ section{
   font-style: normal;
   letter-spacing: 0.96px;
   outline: none;
+  border: 0px solid rgba(222, 187, 72, 0.70);
 }
 .sendme button:hover{
   cursor: pointer;
@@ -533,6 +534,8 @@ section{
   line-height: 40px;
   letter-spacing: 0.96px;
   margin-top: 2rem;
+  outline: none;
+  border: 0px solid rgba(222, 187, 72, 0.70);
 }
 .up h1 {
   color: rgba(222, 187, 72, 0.70);
